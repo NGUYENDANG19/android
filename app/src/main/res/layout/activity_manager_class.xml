@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerClassActivity"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FF6200EE"
+        android:padding="10dp"
+        android:layout_weight="4">
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản lý lớp học"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/searchTop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title"
+        >
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="362dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="#FFFFFFFF"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:hint="Tìm kiếm"
+            android:inputType="text"
+            android:paddingStart="15dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchTop">
+
+    </ListView>
+
+</RelativeLayout>
