@@ -5,61 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ManagerClassActivity"
-    android:orientation="vertical"
-    >
-
+    android:orientation="horizontal">
     <LinearLayout
-        android:id="@+id/title"
+        android:id="@+id/title1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#FF6200EE"
-        android:padding="10dp"
-        android:layout_weight="4">
+        android:background="#005ab7">
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButton1"
             android:layout_width="50dp"
-            android:layout_height="25dp"
+            android:layout_height="50dp"
             app:srcCompat="?attr/homeAsUpIndicator"
             android:background="@null"
-            android:layout_marginRight="10dp"
-            />
-
+            app:tint="@android:color/white" />
         <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quản lý Môn học"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="#FFFFFFFF"/>
+            android:layout_weight="1"
+            android:text="Quản lý Sinh Viên"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/searchTop"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_below="@+id/title"
-        >
 
-        <EditText
-            android:id="@+id/editTextText3"
-            android:layout_width="362dp"
-            android:layout_height="match_parent"
-            android:layout_weight="8"
-            android:background="#FFFFFFFF"
-            android:drawableLeft="@drawable/search"
-            android:drawablePadding="15dp"
-            android:ems="10"
-            android:hint="Tìm kiếm"
-            android:inputType="text"
-            android:paddingStart="15dp" />
-    </LinearLayout>
+    <EditText
+        android:id="@+id/editTextSearch1"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/search"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Tìm kiếm"
+        android:inputType="text" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAddClass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/editTextSearch1"
+        android:background="@null"
+        app:srcCompat="@drawable/add" />
 
     <ListView
+        android:id="@+id/listClass1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/searchTop">
+        android:layout_below="@+id/editTextSearch1"/>
 
-    </ListView>
 
 </RelativeLayout>

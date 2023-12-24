@@ -11,9 +11,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="214dp"
         android:layout_gravity="center"
-        android:layout_weight="20"
         android:background="#005ab7"
         android:gravity="center"
         android:orientation="vertical">
@@ -22,7 +21,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="133dp"
-            android:layout_height="112dp"
+            android:layout_height="125dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/logohueic" />
 
@@ -50,76 +49,63 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_weight="1">
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
         <Button
             android:id="@+id/buttonQLLH"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/custom_icon_class"
             android:text="Quản lý lớp học"
             android:textColor="@color/black"
-            android:layout_margin="5dp"
-            android:textSize="10sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonQlSV"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
-            android:gravity="center"
             android:layout_margin="5dp"
-            android:text="quản lý sinh viên"
-            android:textSize="10sp"
-            android:drawableTop="@drawable/custom_icon_student"
             android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/custom_icon_student"
+            android:gravity="center"
+            android:text="quản lý sinh viên"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonQlSN"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/custom_icon_nganh"
             android:gravity="center"
             android:text="quản lý Ngành"
-            android:textAlignment="viewStart"
             android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_weight="1">
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:gravity="center">
 
-        <Button
-            android:id="@+id/buttonQMH"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/custom_icon_monhoc"
-            android:text="Môn Học"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonQlWEB"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
@@ -127,47 +113,27 @@
             android:gravity="center"
             android:text="Website"
             android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonQlSK"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/custum_icon_event"
             android:gravity="center"
-            android:text="Sự Kiện"
+            android:text="Lịch Học"
             android:textColor="@color/black"
-            android:textSize="10sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/buttonLogout"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/custom_icon_logout"
-            android:text="Đăng Xuất"
-            android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonQLINTK"
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
@@ -175,24 +141,12 @@
             android:gravity="center"
             android:text="Tài khoản"
             android:textColor="@color/black"
-            android:textSize="10sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/buttonQlCALL"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/custom_icon_lienhe"
-            android:gravity="center"
-            android:text="Liên hệ"
-            android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
     </LinearLayout>
+
+
 
 
 

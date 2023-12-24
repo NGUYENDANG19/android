@@ -7,23 +7,23 @@
     tools:context=".ManagerClassActivity"
     android:orientation="horizontal">
     <LinearLayout
-        android:id="@+id/title2"
+        android:id="@+id/title3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#005ab7">
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButton3"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="?attr/homeAsUpIndicator"
             android:background="@null"
             app:tint="@android:color/white" />
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Quản lý Ngành"
+            android:text="Lịch Học - Lịch Thi"
             android:textSize="25dp"
             android:textColor="@color/white"
             android:layout_marginTop="10dp"
@@ -31,10 +31,10 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextSearch2"
+        android:id="@+id/editTextSearch3"
         android:layout_width="330dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/title2"
+        android:layout_below="@+id/title3"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -47,20 +47,20 @@
         android:inputType="text" />
 
     <ImageButton
-        android:id="@+id/imageButtonAddClass2"
+        android:id="@+id/imageButtonAddClass3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/title2"
+        android:layout_below="@+id/title3"
         android:layout_marginTop="5dp"
-        android:layout_toEndOf="@+id/editTextSearch2"
+        android:layout_toEndOf="@+id/editTextSearch3"
         android:background="@null"
         app:srcCompat="@drawable/add" />
 
     <ListView
-        android:id="@+id/listClass2"
+        android:id="@+id/listClass3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/editTextSearch2"/>
+        android:layout_below="@+id/editTextSearch3"/>
 
 
 </RelativeLayout>
